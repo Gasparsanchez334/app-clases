@@ -1,6 +1,6 @@
 import { supabase } from "../supabaseClient";
 import type { Inscripcion } from "../types/Inscripcion";
-import type { Usuario } from "../types/usuario";
+
 
 
 export async function sumarPersona (inscrip: Omit<Inscripcion, "id">){
