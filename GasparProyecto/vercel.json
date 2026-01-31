@@ -1,5 +1,4 @@
 {
-"rewrites": [
-{ "source": "/(.*)", "destination": "/" }
-]
+  "buildCommand": "cd PROYECTANDO/GasparProyecto && npm install && npm run build",
+  "outputDirectory": "PROYECTANDO/GasparProyecto/dist"
 }
